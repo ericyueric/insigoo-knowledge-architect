@@ -41,3 +41,7 @@ dsh --profile web     # 选择器出现「知识库架构师」
 ## 与其他角色的关系
 
 在 insigoo-os 全集中，本角色与「数据分析师（GDT-DB）/ SIA 诊断 / 课程开发 / 总编排」协作。独立使用时，仅需本目录 + `insigoo-memory` 主技能；其余角色按需接入。
+
+## 相关开源仓库
+
+- [insigoo-agents](https://github.com/ericyueric/insigoo-agents) — insigoo OS 标准 agent 角色配置（开源 MIT）：总编排 / 数据分析师 / SIA 诊断 / 课程开发 四件套 + dsh preset 生成器。

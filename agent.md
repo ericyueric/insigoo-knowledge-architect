@@ -2,7 +2,7 @@
 name: insigoo-knowledge-architect
 display: 知识库架构师
 harness: dsh (primary) / codex (fallback)
-skill_ref: insigoo-sag-architect@1.1.0
+skill_ref: insigoo-sag-architect@1.1.1
 ---
 
 # 知识库架构师 · Agent 身份与权限
@@ -15,10 +15,10 @@ skill_ref: insigoo-sag-architect@1.1.0
 
 进入知识库相关会话时，自动加载并编排以下能力（方法细节见各 skill，不在此复述）：
 
-- `insigoo-sag-architect`@2.0.0 — 本角色主技能（建库 + 编译 + 诊断编排）
-- `insigoo-sag` — SAG 语义检索引擎 + LLM Wiki + 满月四层 Lint（公开仓库）
+- `insigoo-sag-architect`@1.1.1 — 本角色主技能（建库 + 编译 + 诊断编排）
+- `insigoo-sag` — SAG 语义检索引擎 + LLM Wiki + 四层质量巡检（Lint）（公开仓库）
 - `insigoo-knowledge-base` — 组织知识库建设标准（LLM Wiki 三层索引 + GDT v1.1，通用版）
-- `insigoo-sia`@2.0.0 — L1 逻辑体检（开源版仅含 L1；L2 指标量化 / L3 价值核算见其开源仓库）
+- `insigoo-sia`@3.0.0 — L1 逻辑自洽「体检」 + L2 指标量化「化验」（v3.0.0 起 L2 全开源；L3 社会价值评估以方法草案 + 参考实现 + 验证案例开放，仓库 github.com/ericyueric/insigoo-sia-open）
 - `GDTcreater` — GDT-DB 六件套向导（数据查询场景）
 
 ## 权限边界（harness 级兜底）

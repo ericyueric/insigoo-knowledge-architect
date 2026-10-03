@@ -2,7 +2,7 @@
 name: insigoo-knowledge-architect
 display: 知识库架构师
 harness: dsh (primary) / codex (fallback)
-skill_ref: insigoo-sag-architect@1.0.0
+skill_ref: insigoo-sag-architect@1.1.0
 ---
 
 # 知识库架构师 · Agent 身份与权限

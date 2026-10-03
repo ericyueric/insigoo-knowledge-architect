@@ -12,10 +12,10 @@
 
 | 技能 | 作用 | 必装 |
 |------|------|------|
-| `insigoo-sag-architect`@2.0.0 | 本角色主技能：建库 + 编译 + 诊断编排 | ✅ 必装 |
+| `insigoo-sag-architect`@1.1.1 | 本角色主技能：建库 + 编译 + 诊断编排 | ✅ 必装 |
 | `insigoo-knowledge-base`@2.0.0 | 组织知识库建设标准（LLM Wiki 三层索引 + GDT v1.1，通用版） | 推荐 |
 | `insigoo-sag` | SAG 语义检索引擎 + LLM Wiki（能力一技术底座） | 可选 |
-| `insigoo-sia`@2.0.0 | L1 逻辑体检（开源版仅含 L1；L2/L3 见其开源仓库） | 可选 |
+| `insigoo-sia`@3.0.0 | L1 逻辑体检 + L2 指标量化（v3.0.0 起 L2 全开源；L3 方法草案开放，见 github.com/ericyueric/insigoo-sia-open） | 可选 |
 
 ## 接入 dsh（harness）
 
